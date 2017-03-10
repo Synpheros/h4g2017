@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Dia 1/dia1_buenosdias.unity
   - enabled: 1
     path: Assets/Dia 1/dia1_salon.unity
+  - enabled: 1
+    path: Assets/transition.unity
