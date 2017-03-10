@@ -41,6 +41,11 @@ public class BallGenerator : MonoBehaviour {
 			
 			GenerateBall(new Vector2(Random.Range(-20, 20), 2));
 		}
+
+        if(progress >= gameTime)
+        {
+            FindObjectOfType<MinigameInitializer>().End();
+        }
 	}
 
 	void GenerateBall(Vector2 direction)

@@ -8,12 +8,15 @@ public class MinigameInitializer : EventManager {
     [SerializeField]
     BallGenerator minigameController;
 
+    private IGameEvent start;
+
     bool started = false;
     public override void ReceiveEvent(IGameEvent ev)
     {
         if(ev.Name == "start futbol")
         {
             started = true;
+            start = ev;
         }
     }
 
@@ -30,5 +33,11 @@ public class MinigameInitializer : EventManager {
 	void Update () {
         minigameController.gameObject.SetActive(started);
 
+    }
+
+    public void End()
+    {
+        started = false;
+        Game.main.eventFinished(start);
     }
 }

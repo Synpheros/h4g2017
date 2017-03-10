@@ -254,11 +254,11 @@ MonoBehaviour:
   - name: Yo
     msg: Aunque...
     character: Madre
-    parameter: normal
+    parameter: none
   - name: "Mam\xE1"
     msg: "Chicos, no teneis hambre? Por qu\xE9 no dejamos el tema y vamos a cenar!"
-    character: Madre
-    parameter: feliz
+    character: Madre2
+    parameter: normal
 --- !u!114 &114542924026310486
 MonoBehaviour:
   m_ObjectHideFlags: 1
