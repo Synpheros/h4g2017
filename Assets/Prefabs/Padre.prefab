@@ -54,7 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expressions:
   - expression: normal
-    sprite: {fileID: 21300002, guid: 14fb3c4553230ac4ea583d32d3747c48, type: 3}
+    sprite: {fileID: 21300000, guid: a778e7995c62eb047bc8cd57f33240ef, type: 3}
   - expression: feliz
     sprite: {fileID: 0}
   - expression: enfadado
