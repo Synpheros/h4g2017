@@ -98,8 +98,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 630
-    y: 325
+    x: 611
+    y: 316
     width: 300
     height: 129
   collapsed: 0
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
-  m_Name: change scene
+  m_Name: change slide
   m_EditorClassIdentifier: 
   keys:
   - synchronous
@@ -245,8 +245,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 1485
-    y: 322
+    x: 1484
+    y: 311
     width: 300
     height: 129
   collapsed: 0
