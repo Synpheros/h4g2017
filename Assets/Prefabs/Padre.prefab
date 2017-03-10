@@ -61,6 +61,8 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - expression: normal
     sprite: {fileID: 0}
+  - expression: movil_madre
+    sprite: {fileID: 0}
   - expression: none
     sprite: {fileID: 0}
 --- !u!212 &212361922991042750
