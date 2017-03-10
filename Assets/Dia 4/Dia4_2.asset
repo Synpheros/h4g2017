@@ -102,7 +102,7 @@ MonoBehaviour:
     x: 189
     y: 164
     width: 300
-    height: 326
+    height: 328
   collapsed: 0
 --- !u!114 &114892502949204876
 MonoBehaviour:
@@ -139,16 +139,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fragments:
-  - name: Profesora
-    msg: "Buenos d\xEDas chicos, hoy tenemos una clase un poco diferente."
+  - name: Orientadora
+    msg: "Buenos d\xEDas chicos, soy la orientadora del colegio. Pode\xEDs hablar
+      conmigo de cualquier cosa"
     character: Profesora
     parameter: normal
-  - name: Profesora
-    msg: "La violencia de g\xE9nero es un problema muy importante"
+  - name: Orientadora
+    msg: "Hoy he venido a hablaros de la violencia de g\xE9nero"
     character: Profesora
     parameter: normal
-  - name: Consejera
-    msg: "Si teneis un problema podeis llamar al 016, pero dec\xEDdmelo a mi y yo
-      os ayudar\xE9"
+  - name: Orientadora
+    msg: '... (Continua la charla)'
+    character: Profesora
+    parameter: normal
+  - name: Orientadora
+    msg: "Existen distintos tipos de violencia y no todas ellas conllevan agresiones
+      f\xEDsicas"
     character: Profesora
     parameter: preocupada
+  - name: Orientadora
+    msg: "Un excesivo control, insultos, amenazas, la ridiculizaci\xF3n.... Son formas
+      de malos tratos"
+    character: Profesora
+    parameter: preocupada
+  - name: Orientadora
+    msg: Estos hecho son denunciables.
+    character: Profesora
+    parameter: normal
+  - name: Orientadora
+    msg: '... (Continua la charla)'
+    character: Profesora
+    parameter: normal
+  - name: Orientadora
+    msg: "Si viv\xEDs esto en casa o conece\xEDs que pasa en la casa de alguno de
+      vuestros compa\xF1eros pode\xEDs venir a contarmelo"
+    character: Profesora
+    parameter: normal
+  - name: Orientadora
+    msg: "Adem\xE1s pode\xEDs llamar llamar al 016. un n\xFAmero que la comunidad
+      ha facilitado para hablar de este tema"
+    character: Profesora
+    parameter: preocupada
+  - name: Orientadora
+    msg: "La semana que viene tendremos otra charla sobre reciclaje. Qu\xE9 pase\xEDs
+      un buen d\xEDa "
+    character: Profesora
+    parameter: normal
