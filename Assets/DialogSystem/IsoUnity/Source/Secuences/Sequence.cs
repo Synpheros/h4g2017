@@ -14,7 +14,7 @@ public class Sequence : ScriptableObject, ISerializationCallbackReceiver {
 
     protected Dictionary<string, SequenceNode> nodeDict;
 
-    void Awake()
+    void OnEnable()
     {
         if (this.nodes == null)
             this.nodes = new List<SequenceNode>();
@@ -183,7 +183,9 @@ public class Sequence : ScriptableObject, ISerializationCallbackReceiver {
 			clone.objectPool.Add (kv.Key, kv.Value);
 
 		// Local variables
-		clone.localVariables = localVariables.Clone ();
+        if(localVariables == null)
+            this.localVariables = IsoSwitches.CreateInstance<IsoSwitches>();
+        clone.localVariables = localVariables.Clone ();
 
 		return clone;
 	}
