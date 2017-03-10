@@ -47,10 +47,7 @@ namespace h4g2
 
         public SceneDef nextScene()
         {
-            SceneDef ret = scenes[0];
-            scenes.Remove(ret);
-
-            return ret;
+            return nextscene;
         }
     }
 }
