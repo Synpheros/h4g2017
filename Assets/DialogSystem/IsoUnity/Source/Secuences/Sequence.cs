@@ -219,6 +219,9 @@ public class Sequence : ScriptableObject, ISerializationCallbackReceiver {
 
     public virtual void OnBeforeSerialize()
     {
+        if (nodeDict == null)
+            nodeDict = new Dictionary<string, SequenceNode>();
+
         this.nodes = nodeDict.Values.ToList();
         this.ids = nodeDict.Keys.ToList();
     }

@@ -18,11 +18,13 @@ MonoBehaviour:
   - {fileID: 114088543538496056}
   - {fileID: 114479295395268806}
   - {fileID: 114641040522983680}
+  - {fileID: 114640330010529642}
   ids:
   - -9242
   - -45018
   - -83534
   - -88954
+  - -28296
   assetinited: 1
 --- !u!114 &114067311391946346
 MonoBehaviour:
@@ -65,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragments:
   - name: Yo
-    msg: "Jo... qu\xE9 pereza... no me apetece ir al cole."
+    msg: "Jo... qu\xE9 pereza... no me apetece ir al cole..."
     character: 
     parameter: 
   - name: "Mam\xE1"
@@ -98,8 +100,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 611
-    y: 316
+    x: 608
+    y: 326
     width: 300
     height: 129
   collapsed: 0
@@ -138,11 +140,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - synchronous
-  - name
+  - subtitle
+  - title
+  - next
   values:
   - {fileID: 114644063286505990}
-  - {fileID: 114292728194383900}
---- !u!114 &114292728194383900
+  - {fileID: 114590970277462998}
+  - {fileID: 114338620821580350}
+  - {fileID: 114403663879548806}
+--- !u!114 &114306204190841768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: sleep
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114646200600716874}
+--- !u!114 &114338620821580350
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -156,7 +177,29 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: dia1_cole
+  s: Lunes
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114403663879548806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: dia1_colev2
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
@@ -193,14 +236,14 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   childs:
-  - {fileID: 114641040522983680}
+  - {fileID: 114640330010529642}
   isUnityObject: 1
   objectContent: {fileID: 114078400105429376}
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 1091
-    y: 217
+    x: 1043
+    y: 230
     width: 300
     height: 328
   collapsed: 0
@@ -227,6 +270,51 @@ MonoBehaviour:
     width: 300
     height: 328
   collapsed: 0
+--- !u!114 &114590970277462998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: Colegio - 9:30
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114640330010529642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114641040522983680}
+  isUnityObject: 1
+  objectContent: {fileID: 114306204190841768}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1423
+    y: 624
+    width: 300
+    height: 151
+  collapsed: 0
 --- !u!114 &114641040522983680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,10 +333,10 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 1484
-    y: 311
+    x: 1571
+    y: 292
     width: 300
-    height: 129
+    height: 169
   collapsed: 0
 --- !u!114 &114644063286505990
 MonoBehaviour:
@@ -272,6 +360,28 @@ MonoBehaviour:
   b: 0
   c: 0
   whatIs: System.Boolean
+--- !u!114 &114646200600716874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 1
+  c: 0
+  whatIs: System.Boolean
 --- !u!114 &114765181281846812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -286,7 +396,7 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: dia1_salon
+  s: dia1_salonv2
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
