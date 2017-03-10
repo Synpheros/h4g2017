@@ -6,26 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SampleScenes/Scenes/2dCharacter.unity
+    path: Assets/Dia 1/dia1_buenosdias.unity
   - enabled: 1
-    path: Assets/SampleScenes/Scenes/AircraftJet2Axis.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/AircraftJetAI.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/AircraftPropeller4Axis.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/AircraftPropellerAI.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/Car.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/CarAIWaypointBased.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/CharacterFirstPerson.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/CharacterThirdPerson.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/CharacterThirdPersonAI.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/Particles.unity
-  - enabled: 1
-    path: Assets/SampleScenes/Scenes/RollerBall.unity
+    path: Assets/Dia 1/dia1_salon.unity

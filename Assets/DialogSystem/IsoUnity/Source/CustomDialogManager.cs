@@ -52,7 +52,10 @@ public class CustomDialogManager : DialogEventManager {
         charactersShown = 0;
         state = State.Opening;
         managingGroup = dialogGroup;
-        managingGroup.gameObject.SetActive(true);
+        if(frg.Msg != "")
+        {
+            managingGroup.gameObject.SetActive(true);
+        }
         interactionBlocker.SetActive(true);
 
         if (frg.Character != "" && frg.Parameter != "")

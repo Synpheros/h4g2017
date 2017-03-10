@@ -17,7 +17,10 @@ public class SerializableGameEvent : ScriptableObject, IGameEvent {
 	[SerializeField]
 	public string Name {
 		get{ return name; }
-		set{ this.name = value; }
+		set{
+            if(value != "")
+                this.name = value;
+        }
 	}
 	[SerializeField]
 	private List<string> keys = new List<string> ();
