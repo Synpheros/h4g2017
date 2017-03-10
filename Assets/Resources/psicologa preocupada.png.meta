@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 14fb3c4553230ac4ea583d32d3747c48
-timeCreated: 1489164901
+guid: ecd633ae4e4c9b04c87bf43794b5338e
+timeCreated: 1489176275
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: familia_0
-    21300002: familia_1
-    21300004: familia_2
-    21300006: familia_3
+    21300000: psicologa preocupada_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -98,54 +95,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: familia_0
+      name: psicologa preocupada_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 168
-        height: 472
+        x: 68
+        y: 12
+        width: 126
+        height: 493
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: familia_1
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 0
-        width: 224
-        height: 720
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: familia_2
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 0
-        width: 159
-        height: 664
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: familia_3
-      rect:
-        serializedVersion: 2
-        x: 645
-        y: 13
-        width: 135
-        height: 363
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
