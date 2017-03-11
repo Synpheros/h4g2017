@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
-  m_Name: BaseConv
+  m_Name: dia2colegio1
   m_EditorClassIdentifier: 
   root: {fileID: 114009147846564648}
   localVariables: {fileID: 0}
@@ -18,11 +18,13 @@ MonoBehaviour:
   - {fileID: 114349946728310624}
   - {fileID: 114651023232762146}
   - {fileID: 114813084126760830}
+  - {fileID: 114752839944889930}
   ids:
   - -7656
   - -8560
   - -11238
   - -144922
+  - -701066
   assetinited: 1
 --- !u!114 &114009147846564648
 MonoBehaviour:
@@ -81,7 +83,7 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: "No est\xE1 bien como trata Jorgue a Alicia"
+  s: "No est\xE1 bien como trata Jorge a Alicia"
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
@@ -89,6 +91,23 @@ MonoBehaviour:
   b: 0
   c: 0
   whatIs: System.String
+--- !u!114 &114156356279975454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: change scene
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  - name
+  values:
+  - {fileID: 114589215927458964}
+  - {fileID: 114379143868570156}
 --- !u!114 &114221965812619446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -180,10 +199,32 @@ MonoBehaviour:
     character: 
     parameter: 
   - name: '      Voces de fondo (Jorge)'
-    msg: "\xBFYa est\xE1s llorando otra vez? ERES UNA IN\xDCTIL. Ya hablaremos est\xE1
+    msg: "\xBFYa est\xE1s llorando otra vez? ERES UNA IN\xDATIL. Ya hablaremos est\xE1
       tarde"
     character: 
     parameter: 
+--- !u!114 &114379143868570156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: dia2colegio2
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
 --- !u!114 &114398429722983818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,6 +336,28 @@ MonoBehaviour:
   b: 1
   c: 0
   whatIs: System.Boolean
+--- !u!114 &114589215927458964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
 --- !u!114 &114651023232762146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,6 +380,29 @@ MonoBehaviour:
     y: 657
     width: 300
     height: 256
+  collapsed: 0
+--- !u!114 &114752839944889930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114156356279975454}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 812
+    y: 743
+    width: 300
+    height: 129
   collapsed: 0
 --- !u!114 &114760802333258926
 MonoBehaviour:
@@ -358,8 +444,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 697
-    y: 689
+    x: 959
+    y: 481
     width: 529
     height: 169
   collapsed: 0

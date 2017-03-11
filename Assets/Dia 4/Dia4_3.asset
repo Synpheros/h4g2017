@@ -194,7 +194,7 @@ MonoBehaviour:
     character: 
     parameter: 
   - name: Yo
-    msg: '*Que raro actuan todos hoy...*'
+    msg: "*Que raro act\xFAan todos hoy...*"
     character: 
     parameter: 
 --- !u!114 &114984599193255844

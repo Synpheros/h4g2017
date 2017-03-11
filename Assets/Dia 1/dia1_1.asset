@@ -333,8 +333,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 1556
-    y: 288
+    x: 1645
+    y: 286
     width: 300
     height: 169
   collapsed: 0

@@ -38,8 +38,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 131
-    y: 37
+    x: 200
+    y: 174
     width: 344
     height: 328
   collapsed: 0
@@ -113,21 +113,29 @@ MonoBehaviour:
   - name: "Pap\xE1"
     msg: "Es la segunda vez que llegas tarde a recogerle este mes, sal con m\xE1s
       tiempo"
-    character: 
-    parameter: 
+    character: Madre
+    parameter: normal
   - name: "Pap\xE1"
     msg: "Por eso, a\xFAn no tengo el ba\xF1o preparado y la cena no est\xE1 hecha"
-    character: 
-    parameter: 
+    character: Padre
+    parameter: sarcastico
   - name: "Pap\xE1"
-    msg: "VENGA!! Ya est\xE1s tardando"
-    character: 
-    parameter: 
+    msg: "Vamos! Ya est\xE1s tardando"
+    character: Madre
+    parameter: cerrados
   - name: "Pap\xE1"
-    msg: "Vamos hijo, vamos a ver la tele mientr\xE1s t\xFA madre hace la cena. Hoy
-      me ba\xF1ar\xE9 despu\xE9 de la cena, \xBFENTIENDES CARI\xD1O?"
-    character: 
-    parameter: 
+    msg: "Vamos hijo, vamos a ver la tele mientras tu madre hace la cena. Hoy me ba\xF1ar\xE9
+      despu\xE9s de la cena"
+    character: Padre
+    parameter: feliz
+  - name: "Pap\xE1"
+    msg: "\xBF\xA1Entiendes cari\xF1o!?"
+    character: Madre
+    parameter: cerrados
+  - name: "Mam\xE1"
+    msg: Si cielo...
+    character: Madre
+    parameter: normal
 --- !u!114 &114398429722983818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,8 +220,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 664
-    y: 173
+    x: 869
+    y: 209
     width: 529
     height: 169
   collapsed: 0

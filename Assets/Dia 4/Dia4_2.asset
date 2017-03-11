@@ -141,11 +141,11 @@ MonoBehaviour:
   fragments:
   - name: Orientadora
     msg: "Buenos d\xEDas chicos, soy la orientadora del colegio. Pode\xEDs hablar
-      conmigo de cualquier cosa"
+      conmigo de cualquier cosa."
     character: Profesora
     parameter: normal
   - name: Orientadora
-    msg: "Hoy he venido a hablaros de la violencia de g\xE9nero"
+    msg: "Hoy he venido a hablaros de la violencia de g\xE9nero."
     character: Profesora
     parameter: normal
   - name: Orientadora
@@ -154,12 +154,12 @@ MonoBehaviour:
     parameter: normal
   - name: Orientadora
     msg: "Existen distintos tipos de violencia y no todas ellas conllevan agresiones
-      f\xEDsicas"
+      f\xEDsicas."
     character: Profesora
     parameter: preocupada
   - name: Orientadora
     msg: "Un excesivo control, insultos, amenazas, la ridiculizaci\xF3n.... Son formas
-      de malos tratos"
+      de malos tratos."
     character: Profesora
     parameter: preocupada
   - name: Orientadora
@@ -171,17 +171,17 @@ MonoBehaviour:
     character: Profesora
     parameter: normal
   - name: Orientadora
-    msg: "Si viv\xEDs esto en casa o conece\xEDs que pasa en la casa de alguno de
-      vuestros compa\xF1eros pode\xEDs venir a contarmelo"
+    msg: "Si viv\xEDs esto en casa o sab\xE9is si puede estar pasando en casa de alguno
+      de vuestros compa\xF1eros pode\xEDs venir a contarmelo."
     character: Profesora
     parameter: normal
   - name: Orientadora
-    msg: "Adem\xE1s pode\xEDs llamar llamar al 016. un n\xFAmero que la comunidad
-      ha facilitado para hablar de este tema"
+    msg: "Adem\xE1s pode\xEDs llamar al 016, un n\xFAmero que la comunidad ha facilitado
+      para hablar de este tema."
     character: Profesora
     parameter: preocupada
   - name: Orientadora
-    msg: "La semana que viene tendremos otra charla sobre reciclaje. Qu\xE9 pase\xEDs
-      un buen d\xEDa "
+    msg: "La semana que viene tendremos otra charla sobre reciclaje. \xA1Que pase\xEDs
+      un buen d\xEDa!"
     character: Profesora
     parameter: normal

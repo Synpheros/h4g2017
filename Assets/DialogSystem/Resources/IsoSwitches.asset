@@ -27,7 +27,7 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: "vac\xEDo"
+  s: "peque\xF1o"
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
@@ -46,5 +46,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0887338ee6657394ebdae4d5c768a9de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: variable
+  id: nombre
   state: {fileID: 114000010774324972}

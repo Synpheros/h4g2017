@@ -8,14 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/transition.unity
   - enabled: 1
-    path: Assets/Dia 1/dia1_buenosdiasv2.unity
-  - enabled: 1
-    path: Assets/Dia 1/dia1_colev2.unity
-  - enabled: 1
-    path: Assets/Dia 1/dia1_salonv2.unity
-  - enabled: 1
-    path: Assets/Dia 1/dia1_casav2.unity
-  - enabled: 1
     path: Assets/Dia 4/Dia4_1.unity
   - enabled: 1
     path: Assets/Dia 4/Dia4_2.unity
@@ -27,3 +19,17 @@ EditorBuildSettings:
     path: Assets/Dia 3/dia3_2.unity
   - enabled: 1
     path: Assets/Dia 3/dia3_1.unity
+  - enabled: 1
+    path: Assets/Dia 2/dia2casa.unity
+  - enabled: 1
+    path: Assets/Dia 2/dia2colegio1.unity
+  - enabled: 1
+    path: Assets/Dia 2/dia2colegio2.unity
+  - enabled: 1
+    path: Assets/Dia 1/dia1_1.unity
+  - enabled: 1
+    path: Assets/Dia 1/dia1_2.unity
+  - enabled: 1
+    path: Assets/Dia 1/dia1_3.unity
+  - enabled: 1
+    path: Assets/Dia 1/dia1_4.unity
