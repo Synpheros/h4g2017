@@ -80,8 +80,8 @@ public class DDRController : MonoBehaviour {
         instance.transform.SetParent(this.transform);
         instance.transform.localPosition = localPosition;
 
-        go.GetComponent<DDRArrow>().end = top;
-        go.GetComponent<DDRArrow>().targetPoint = points[arrow];
+        instance.GetComponent<DDRArrow>().end = top;
+        instance.GetComponent<DDRArrow>().targetPoint = points[arrow];
     }
 
     public void Miss()
