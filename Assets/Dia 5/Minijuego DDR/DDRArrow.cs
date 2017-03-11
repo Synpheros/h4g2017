@@ -19,6 +19,9 @@ public class DDRArrow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (end == null)
+            return;
+
         transform.localPosition += new Vector3(0, speed * Time.deltaTime, 0);
         if(transform.localPosition.y > end.transform.localPosition.y)
         {

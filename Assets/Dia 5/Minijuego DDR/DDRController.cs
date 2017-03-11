@@ -76,6 +76,7 @@ public class DDRController : MonoBehaviour {
         localPosition = new Vector3(localPosition.x, spawnPos.transform.localPosition.y, localPosition.z);
 
         var instance = GameObject.Instantiate(go);
+        go.GetComponent<DDRArrow>().end = top;
         instance.transform.SetParent(this.transform);
         instance.transform.localPosition = localPosition;
 

@@ -28,8 +28,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dia 1/dia1_1.unity
   - enabled: 1
+    path: Assets/Dia 5/Dia5_1.unity
+  - enabled: 1
+    path: Assets/Dia 5/Dia5_2.unity
+  - enabled: 1
+    path: Assets/Dia 5/Dia5_3.unity
+  - enabled: 1
+    path: Assets/Dia 5/Dia5_4.unity
+  - enabled: 1
+    path: Assets/Dia 5/Dia5_5.unity
+  - enabled: 1
+    path: Assets/Dia 5/Dia5_6.unity
+  - enabled: 1
     path: Assets/Dia 1/dia1_2.unity
   - enabled: 1
     path: Assets/Dia 1/dia1_3.unity
+  - enabled: 1
+    path: Assets/Dia 6/dia6_1.unity
   - enabled: 1
     path: Assets/Dia 1/dia1_4.unity

@@ -96,8 +96,8 @@ MonoBehaviour:
   fragments:
   - name: Padre
     msg: "\xA1Bien! \xA1El partido acaba de empezar!"
-    character: 
-    parameter: 
+    character: Padre
+    parameter: normal
   - name: Yo
     msg: "\xA1Pero Pap\xE1! \xA1Estaba en mitad de una partida!"
     character: 
