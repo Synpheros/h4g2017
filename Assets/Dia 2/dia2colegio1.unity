@@ -613,6 +613,7 @@ GameObject:
   - component: {fileID: 774224241}
   - component: {fileID: 774224240}
   - component: {fileID: 774224243}
+  - component: {fileID: 774224244}
   m_Layer: 0
   m_Name: Amigo
   m_TagString: Untagged
@@ -631,12 +632,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  executeOnStart: 0
+  executeOnStart: 1
   loop: 0
   localExecution: 0
   launchOnTriggerEnter: 0
-  launchOnMouseUpAsButton: 1
-  sharedSequence: {fileID: 11400000, guid: 9e72e689398281b468ccdf0b4a334d2f, type: 2}
+  launchOnMouseUpAsButton: 0
+  sharedSequence: {fileID: 11400000, guid: bb628df57c1b1074eb6b362a273d4b52, type: 2}
   localSequence: {fileID: 0}
 --- !u!212 &774224241
 SpriteRenderer:
@@ -669,7 +670,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8dcd525caf77e914eb611c4b5080b60b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f26666041078eb4b9413f6d5da483e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -680,7 +681,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 774224239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.47, y: -12.07, z: 0}
+  m_LocalPosition: {x: -5.4, y: -2.3, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -697,9 +698,25 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -7.138137, y: 9.498318}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.3417416, y: 11.447376}
+--- !u!114 &774224244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774224239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4436524c2fad74daa97483de8c4a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions:
+  - expression: normal
+    sprite: {fileID: 21300000, guid: 8f26666041078eb4b9413f6d5da483e3, type: 3}
+  - expression: triste
+    sprite: {fileID: 21300000, guid: 396390a7f021b494b9b68fa11f5f1f67, type: 3}
 --- !u!1 &873501842
 GameObject:
   m_ObjectHideFlags: 0

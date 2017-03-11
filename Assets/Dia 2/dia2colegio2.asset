@@ -38,8 +38,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 131
-    y: 37
+    x: 191
+    y: 105
     width: 344
     height: 328
   collapsed: 0
@@ -101,14 +101,18 @@ MonoBehaviour:
   - name: Ventu
     msg: "Hoy tengo f\xFAtbol, as\xED que hasta las 7 no llego a casa. Pero te llamo
       en cuanto llegue"
-    character: 
-    parameter: 
+    character: Amigo
+    parameter: normal
   - name: Ventu
     msg: Por cierto, ya hemos terminado las clases por hoy
     character: 
     parameter: 
-  - name: Silvia
-    msg: "Es verdad \xBFt\xFA madre no deber\xEDa haber llegado ya?"
+  - name: Ventu
+    msg: Mhm...
+    character: Amigo
+    parameter: triste
+  - name: Ventu
+    msg: "\xBFTu madre no deber\xEDa haber llegado ya?"
     character: 
     parameter: 
   - name: "T\xFA"

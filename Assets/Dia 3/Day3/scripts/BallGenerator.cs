@@ -44,6 +44,11 @@ public class BallGenerator : MonoBehaviour {
 
         if(progress >= gameTime)
         {
+            foreach(var b in FindObjectsOfType<Ball>())
+            {
+                GameObject.DestroyImmediate(b.gameObject);
+            }
+
             FindObjectOfType<MinigameInitializer>().End();
         }
 	}

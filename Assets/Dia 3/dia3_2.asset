@@ -142,6 +142,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragments:
   - name: Yo
+    msg: '*uff*'
+    character: 
+    parameter: 
+  - name: Yo
     msg: "Qu\xE9 divertido! Pero..."
     character: 
     parameter: 
@@ -166,7 +170,7 @@ MonoBehaviour:
     x: 1169
     y: 246
     width: 300
-    height: 186
+    height: 256
   collapsed: 0
 --- !u!114 &114260344669661636
 MonoBehaviour:

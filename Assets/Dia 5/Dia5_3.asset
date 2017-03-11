@@ -77,8 +77,8 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 696
-    y: 213
+    x: 779
+    y: 273
     width: 300
     height: 129
   collapsed: 0
