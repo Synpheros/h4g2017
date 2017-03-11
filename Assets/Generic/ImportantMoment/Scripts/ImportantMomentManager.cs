@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityStandardAssets.ImageEffects;
 using System;
+using RAGE.Analytics;
 
 namespace ImportantManager
 {
@@ -130,8 +131,20 @@ namespace ImportantManager
             }
         }
 
-        public void hide()
+        public void hide(int chosen)
         {
+            string texto = "";
+            switch (chosen)
+            {
+                case 0: texto = (string)ev.getParameter("o1"); break;
+                case 1: texto = (string)ev.getParameter("o2");  break;
+                case 2: texto = (string)ev.getParameter("o3");  break;
+                case 3: texto = (string)ev.getParameter("o4"); break;
+            }
+
+            Tracker.T.alternative.Selected((string)ev.getParameter("id"), texto.Replace(' ', '_'));
+            Tracker.T.RequestFlush();
+
             im.gameObject.SetActive(false);
             g.rampOffset = -1;
             deflash();

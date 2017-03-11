@@ -221,7 +221,7 @@ MonoBehaviour:
     x: 525
     y: 106
     width: 747
-    height: 231
+    height: 251
   collapsed: 0
 --- !u!114 &114351768246733644
 MonoBehaviour:
@@ -264,12 +264,14 @@ MonoBehaviour:
   - o2
   - o3
   - o4
+  - id
   values:
   - {fileID: 114516982087322008}
   - {fileID: 114760802333258926}
   - {fileID: 114099143824018888}
   - {fileID: 114979358965164692}
   - {fileID: 114908389999307526}
+  - {fileID: 114764043683025138}
 --- !u!114 &114516982087322008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -352,6 +354,28 @@ MonoBehaviour:
   f: 0
   d: 0
   s: Yo no tengo cereales favoritos
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114764043683025138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: gafas
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}

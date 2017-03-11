@@ -637,7 +637,7 @@ MonoBehaviour:
   localExecution: 0
   launchOnTriggerEnter: 0
   launchOnMouseUpAsButton: 0
-  sharedSequence: {fileID: 11400000, guid: bb628df57c1b1074eb6b362a273d4b52, type: 2}
+  sharedSequence: {fileID: 11400000, guid: 9e72e689398281b468ccdf0b4a334d2f, type: 2}
   localSequence: {fileID: 0}
 --- !u!212 &774224241
 SpriteRenderer:
