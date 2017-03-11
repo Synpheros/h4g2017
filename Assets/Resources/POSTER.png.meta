@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: a763e90e328450a44a58cba0af348d88
-timeCreated: 1489202732
+guid: 3c696f324cf0ba34688706855a28e281
+timeCreated: 1489201483
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: despacho pintado_0
-    21300002: despacho pintado_1
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -36,7 +34,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -94,33 +92,7 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: despacho pintado_0
-      rect:
-        serializedVersion: 2
-        x: 776
-        y: 480
-        width: 293
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: despacho pintado_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 
