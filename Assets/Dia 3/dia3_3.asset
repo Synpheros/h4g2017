@@ -9,20 +9,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
-  m_Name: dia1_cole
+  m_Name: dia3_3
   m_EditorClassIdentifier: 
-  root: {fileID: 114802058924017680}
-  localVariables: {fileID: 114537637413932256}
+  root: {fileID: 114723790065463248}
+  localVariables: {fileID: 114194253548721528}
   nodes:
-  - {fileID: 114802058924017680}
-  - {fileID: 114602848909590818}
-  - {fileID: 114773256548159242}
+  - {fileID: 114723790065463248}
+  - {fileID: 114443115201087076}
+  - {fileID: 114991471842891534}
   ids:
-  - -62374
-  - -87060
-  - -114830
+  - -460752
+  - -467674
+  - -468390
   assetinited: 1
---- !u!114 &114165645951786336
+--- !u!114 &114049354606026044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: sleep
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114591438924387852}
+--- !u!114 &114145002702553280
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -36,29 +51,7 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: 
-  v2: {x: 0, y: 0}
-  v3: {x: 0, y: 0, z: 0}
-  v4: {x: 0, y: 0, z: 0, w: 0}
-  q: {x: 0, y: 0, z: 0, w: 0}
-  b: 0
-  c: 0
-  whatIs: System.Boolean
---- !u!114 &114255387652315908
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  i: 0
-  f: 0
-  d: 0
-  s: dia1_casav2
+  s: 9:30 - Clase
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
@@ -66,7 +59,19 @@ MonoBehaviour:
   b: 0
   c: 0
   whatIs: System.String
---- !u!114 &114326483970691738
+--- !u!114 &114194253548721528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f903b5c05730594280dcba273e69bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switches: []
+--- !u!114 &114280083500161090
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -80,7 +85,7 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: 18:00 - Casa
+  s: Jueves
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
@@ -88,7 +93,51 @@ MonoBehaviour:
   b: 0
   c: 0
   whatIs: System.String
---- !u!114 &114329242674971792
+--- !u!114 &114368841378624458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: change slide
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  - title
+  - subtitle
+  - next
+  values:
+  - {fileID: 114830706774187908}
+  - {fileID: 114280083500161090}
+  - {fileID: 114145002702553280}
+  - {fileID: 114964547456633638}
+--- !u!114 &114443115201087076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114991471842891534}
+  isUnityObject: 1
+  objectContent: {fileID: 114049354606026044}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 745
+    y: 350
+    width: 300
+    height: 151
+  collapsed: 0
+--- !u!114 &114591438924387852
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -110,110 +159,7 @@ MonoBehaviour:
   b: 1
   c: 0
   whatIs: System.Boolean
---- !u!114 &114461634176061114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
-  m_Name: change slide
-  m_EditorClassIdentifier: 
-  keys:
-  - synchronous
-  - title
-  - subtitle
-  - next
-  values:
-  - {fileID: 114165645951786336}
-  - {fileID: 114939303900486184}
-  - {fileID: 114326483970691738}
-  - {fileID: 114255387652315908}
---- !u!114 &114537637413932256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f903b5c05730594280dcba273e69bc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  switches: []
---- !u!114 &114602848909590818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
-  m_Name: GameEvent
-  m_EditorClassIdentifier: 
-  childs:
-  - {fileID: 0}
-  isUnityObject: 1
-  objectContent: {fileID: 114461634176061114}
-  secuence: {fileID: 11400000}
-  position:
-    serializedVersion: 2
-    x: 828
-    y: 425
-    width: 300
-    height: 169
-  collapsed: 0
---- !u!114 &114702344251868220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fragments:
-  - name: Profesora
-    msg: "Buenos d\xEDas clase!"
-    character: Profesora
-    parameter: feliz
-  - name: Profesora
-    msg: Hoy vamos a aprender a...
-    character: Profesora
-    parameter: normal
-  - name: Yo
-    msg: "(Otro d\xEDa m\xE1s de cole...)"
-    character: 
-    parameter: 
---- !u!114 &114773256548159242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
-  m_Name: GameEvent
-  m_EditorClassIdentifier: 
-  childs:
-  - {fileID: 114602848909590818}
-  isUnityObject: 1
-  objectContent: {fileID: 114853007856627698}
-  secuence: {fileID: 11400000}
-  position:
-    serializedVersion: 2
-    x: 764
-    y: 700
-    width: 304
-    height: 151
-  collapsed: 0
---- !u!114 &114802058924017680
+--- !u!114 &114723790065463248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -225,33 +171,18 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   childs:
-  - {fileID: 114773256548159242}
+  - {fileID: 114443115201087076}
   isUnityObject: 1
-  objectContent: {fileID: 114702344251868220}
+  objectContent: {fileID: 114913862774472384}
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 327
-    y: 354
+    x: 294
+    y: 263
     width: 300
-    height: 326
+    height: 328
   collapsed: 0
---- !u!114 &114853007856627698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
-  m_Name: sleep
-  m_EditorClassIdentifier: 
-  keys:
-  - synchronous
-  values:
-  - {fileID: 114329242674971792}
---- !u!114 &114939303900486184
+--- !u!114 &114830706774187908
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -265,7 +196,70 @@ MonoBehaviour:
   i: 0
   f: 0
   d: 0
-  s: Lunes
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114913862774472384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: "Mam\xE1"
+    msg: "Hijo, eres todo un campe\xF3n! Qu\xE9 orgullosa estoy de ti!"
+    character: Madre
+    parameter: frente
+  - name: "Mam\xE1"
+    msg: "\xBFSabes? Cuando yo era joven jugaba en el equipo femenino de f\xFAtbol
+      del colegio..."
+    character: 
+    parameter: 
+  - name: "Mam\xE1"
+    msg: La verdad...
+    character: 
+    parameter: 
+  - name: "Mam\xE1"
+    msg: La verdad es que lo echo de menos...
+    character: Madre
+    parameter: triste
+  - name: Yo
+    msg: "Guau mam\xE1! Eres la mejor!"
+    character: 
+    parameter: 
+  - name: Yo
+    msg: "Te quiero mam\xE1"
+    character: 
+    parameter: 
+  - name: "Mam\xE1"
+    msg: Te quiero hijo, buenas noches
+    character: Madre
+    parameter: frente_feliz
+--- !u!114 &114964547456633638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: dia4_1
   v2: {x: 0, y: 0}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
@@ -273,3 +267,26 @@ MonoBehaviour:
   b: 0
   c: 0
   whatIs: System.String
+--- !u!114 &114991471842891534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114368841378624458}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1173
+    y: 339
+    width: 300
+    height: 169
+  collapsed: 0

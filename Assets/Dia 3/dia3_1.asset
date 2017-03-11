@@ -62,7 +62,7 @@ MonoBehaviour:
     x: 754
     y: 252
     width: 544
-    height: 211
+    height: 169
   collapsed: 0
 --- !u!114 &114544343717414370
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
   q: {x: 0, y: 0, z: 0, w: 0}
-  b: 1
+  b: 0
   c: 0
   whatIs: System.Boolean
 --- !u!114 &114849915220592420

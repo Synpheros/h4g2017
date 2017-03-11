@@ -61,7 +61,7 @@ MonoBehaviour:
     x: 1694
     y: 584
     width: 300
-    height: 211
+    height: 169
   collapsed: 0
 --- !u!114 &114052841182000606
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
   q: {x: 0, y: 0, z: 0, w: 0}
-  b: 1
+  b: 0
   c: 0
   whatIs: System.Boolean
 --- !u!114 &114406516202327928
@@ -243,18 +243,22 @@ MonoBehaviour:
     msg: "Oye pap\xE1... \xBFPor qu\xE9 no juega mam\xE1 con nosotros?"
     character: 
     parameter: 
+  - name: 
+    msg: 
+    character: Padre
+    parameter: none
   - name: "Pap\xE1"
     msg: Tu madre no vale para esto, a ella se le da mejor cocinar.
-    character: Padre
+    character: Padre2
     parameter: enfadado
   - name: Yo
     msg: "S\xED, es verdad que se le da bien, jajaja"
     character: Madre
     parameter: cerrados
   - name: Yo
-    msg: Aunque...
-    character: Madre
-    parameter: none
+    msg: "Aunque... Mam\xE1 tamb-"
+    character: 
+    parameter: 
   - name: "Mam\xE1"
     msg: "Chicos, no teneis hambre? Por qu\xE9 no dejamos el tema y vamos a cenar!"
     character: Madre2
@@ -318,16 +322,36 @@ MonoBehaviour:
   fragments:
   - name: Yo
     msg: "Qu\xE9 buen d\xEDa hace :)"
-    character: Padre
+    character: Padre2
     parameter: feliz
   - name: "Pap\xE1"
     msg: Venga hijo, te chuto el balon y a ver cuantas paras!
-    character: Padre
+    character: Padre2
     parameter: feliz
+  - name: 
+    msg: 
+    character: Madre2
+    parameter: triste
   - name: "Pap\xE1"
     msg: "Dem\xFAestrame que has sacado mis genes y no los de tu madre"
-    character: Padre
+    character: Padre2
     parameter: sarcastico
+  - name: 
+    msg: 
+    character: Madre2
+    parameter: none
+  - name: 
+    msg: 
+    character: Madre
+    parameter: triste
+  - name: 
+    msg: 
+    character: Padre2
+    parameter: none
+  - name: 
+    msg: 
+    character: Padre
+    parameter: futbol
 --- !u!114 &114604642124620484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,10 +525,10 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 325
-    y: 179
+    x: 321
+    y: 177
     width: 300
-    height: 326
+    height: 328
   collapsed: 0
 --- !u!114 &114941003087530344
 MonoBehaviour:

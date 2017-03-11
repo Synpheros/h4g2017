@@ -55,6 +55,9 @@ public class CustomDialogManager : DialogEventManager {
         if(frg.Msg != "")
         {
             managingGroup.gameObject.SetActive(true);
+        }else
+        {
+            state = State.Closing;
         }
         interactionBlocker.SetActive(true);
 

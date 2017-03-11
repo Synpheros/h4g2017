@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1583887336048452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22802335, y: -1.6944673, z: 0}
+  m_LocalPosition: {x: -2.83, y: -0.96, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -54,15 +54,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expressions:
   - expression: normal
-    sprite: {fileID: 21300000, guid: a778e7995c62eb047bc8cd57f33240ef, type: 3}
+    sprite: {fileID: 21300000, guid: 8f7b094c2b25200449dc037fb5451546, type: 3}
   - expression: feliz
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8f7b094c2b25200449dc037fb5451546, type: 3}
   - expression: enfadado
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b89043b042a288741bb8f7437273cb17, type: 3}
   - expression: sarcastico
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 5e05cad2aed198148a9e18d43567f9af, type: 3}
   - expression: movil_madre
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 34189f9c625f0ed4d97cb32f76f78bfc, type: 3}
+  - expression: futbol
+    sprite: {fileID: 21300000, guid: 02e922a192bdc7148bc549198fd64c66, type: 3}
   - expression: none
     sprite: {fileID: 0}
 --- !u!212 &212361922991042750

@@ -68,11 +68,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  executeOnStart: 1
+  executeOnStart: 0
   loop: 0
   localExecution: 0
   launchOnTriggerEnter: 0
-  launchOnMouseUpAsButton: 1
+  launchOnMouseUpAsButton: 0
   sharedSequence: {fileID: 11400000, guid: fec338783d8c1f3478260e1c6a52213a, type: 2}
   localSequence: {fileID: 0}
 --- !u!114 &114741993929995812
@@ -99,6 +99,10 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 23715731195aabd4a94716380b6f6202, type: 3}
   - expression: morado_triste
     sprite: {fileID: 21300000, guid: deda8aad16d3fd5499b2926c7935281f, type: 3}
+  - expression: frente_feliz
+    sprite: {fileID: 21300000, guid: 6b40112783dafbd4496150d5c0d34fe1, type: 3}
+  - expression: none
+    sprite: {fileID: 0}
   - expression: morado_feliz
     sprite: {fileID: 21300000, guid: cedcabf309cdff841ae3c33ff820379e, type: 3}
 --- !u!212 &212572467358831058

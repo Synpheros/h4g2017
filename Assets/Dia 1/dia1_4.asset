@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
-  m_Name: dia1_casa
+  m_Name: dia1_4
   m_EditorClassIdentifier: 
   root: {fileID: 114738062506668932}
   localVariables: {fileID: 114739689663226176}
@@ -332,6 +332,10 @@ MonoBehaviour:
     msg: 
     character: Madre
     parameter: none
+  - name: 
+    msg: 
+    character: Madre2
+    parameter: normal
   - name: "Pap\xE1"
     msg: Veamos si es verdad...
     character: Padre
@@ -467,7 +471,7 @@ MonoBehaviour:
     parameter: enfadado
   - name: "Mam\xE1"
     msg: "S\xED cari\xF1o, ya voy..."
-    character: Madre
+    character: Madre2
     parameter: cerrados
   - name: Yo
     msg: Mejor me voy a la cama...
