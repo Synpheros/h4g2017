@@ -2,6 +2,18 @@
 Say Something, Save Someone
 MAD15 – AnandaHackers - Madrid
 
+## Licencias:
+* Código: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+* Recursos: [CC-BY-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+## Vídeo promocional:
+
+[![Vídeo promocional en YouTube](http://img.youtube.com/vi/bJ1B7I691J0/0.jpg)](https://www.youtube.com/watch?v=bJ1B7I691J0)
+
+## Vídeo presentación en HackForGood 2017
+
+[![Vídeo promocional en YouTube](http://img.youtube.com/vi/aaZM5CCBzLA/0.jpg)](https://www.youtube.com/watch?v=aaZM5CCBzLA&t=40m8s)
+
 ## Objetivo del proyecto
 El objetivo principal del proyecto es concienciar a niños, de entre 8 y 14 años, sobre el problema de la violencia de género y la violencia doméstica, primero, para que aprendan a discernir que es una discusión normal de pareja y en qué punto comienza a ser lo que denominamos violencia de género y/o doméstica; y segundo, para que aprendan a actuar ante estos casos y hablen de ello. La presencia de los niños en los escenarios de violencia doméstica puede producir diversos trastornos emocionales y de conducta en estos que, en ocasiones, se asocian con la comisión o el padecimiento de actos de violencia en años posteriores de su vida. Por ello, el videojuego también pretende servir como herramienta de detección mostrando escenarios comunes en el ámbito tratado y comprobando si los usuarios lo identifican como algo normal o extraño.
 
