@@ -1,9 +1,8 @@
-﻿using System;
+﻿using IsoUnity.Events;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BubbleController : EventManager {
+public class BubbleController : EventedEventManager {
 
 	public GameObject rightBubble;
 	public GameObject leftBubble;
@@ -13,52 +12,44 @@ public class BubbleController : EventManager {
 	IGameEvent current;
 	GameObject currentbubble;
 
-	public override void ReceiveEvent(IGameEvent ev)
-	{
-		GameObject g = this.gameObject;
-		if (ev.Name == "bubble right")
-		{
-			current = ev;
-			currentbubble = g = Instantiate(rightBubble);
-			String text = (String)ev.getParameter("text");
-			g.GetComponentInChildren<UnityEngine.UI.Text>().text = text;
-			g.transform.SetParent(canvas.transform);
-			g.transform.localPosition = new Vector3(171.5f, 75.4f, 1);
-			shake.DoShake();
+    [GameEvent(true, false)]
+    public IEnumerable BubbleRight(string text)
+    {
+        var g = Instantiate(rightBubble);
+        g.GetComponentInChildren<UnityEngine.UI.Text>().text = text;
+        g.transform.SetParent(canvas.transform);
+        g.transform.localPosition = new Vector3(171.5f, 75.4f, 1);
+        shake.DoShake();
 
-		}
-		else if (ev.Name == "bubble left")
-		{
-			current = ev;
-			currentbubble = g = Instantiate(leftBubble);
-			String text = (String)ev.getParameter("text");
-			g.GetComponentInChildren<UnityEngine.UI.Text>().text = text;
-			g.transform.SetParent(canvas.transform);
-			g.transform.localPosition = new Vector3(-609, 180, 1);
-			shake.DoShake();
-		}
-		else if (ev.Name == "shake")
-		{
-			current = ev;
-			shake.DoShake();
-		}
-	}
+        yield return WaitForMouseButtonDown(0);
 
-	public override void Tick()
-	{
-	}
+        DestroyImmediate(currentbubble);
+    }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetMouseButtonDown(0))
-		{
-			DestroyImmediate(currentbubble);
-			Game.main.eventFinished(current);
-		}
-	}
+    [GameEvent(true, false)]
+    public IEnumerable BubbleLeft(string text)
+    {
+        var g = Instantiate(rightBubble);
+        g.GetComponentInChildren<UnityEngine.UI.Text>().text = text;
+        g.transform.SetParent(canvas.transform);
+        g.transform.localPosition = new Vector3(-609, 180, 1);
+        shake.DoShake();
+
+        yield return WaitForMouseButtonDown(0);
+
+        DestroyImmediate(currentbubble);
+    }
+
+    [GameEvent(true, false)]
+    public IEnumerable Shake()
+    {
+        shake.DoShake();
+        yield return WaitForMouseButtonDown(0);
+    }
+
+    public IEnumerator WaitForMouseButtonDown(int mouseButton)
+    {
+        while (!Input.GetMouseButtonDown(mouseButton))
+            yield return null;
+    }
 }
