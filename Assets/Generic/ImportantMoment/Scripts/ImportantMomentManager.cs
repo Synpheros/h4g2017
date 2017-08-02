@@ -3,10 +3,12 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityStandardAssets.ImageEffects;
 using System;
+using IsoUnity.Events;
+using IsoUnity;
 
 namespace ImportantManager
 {
-    public class ImportantMomentManager : EventManager
+    public class ImportantMomentManager : EventedEventManager
     {
 
         public GameObject im, opts, white;
@@ -19,10 +21,20 @@ namespace ImportantManager
         IMState state = IMState.NONE;
         bool tofade = false;
 
-        public void Sleep()
+        [GameEvent(true, false)]
+        public IEnumerable Sleep()
         {
-            sleeping = true;
             this.sleep.sleep();
+            yield return new WaitForSeconds(1f);
+        }
+
+        [GameEvent(false, false)]
+        public void Important(string o1, string o2, string o3, string o4)
+        {
+            opts.GetComponent<Options>().setText(o1, o2, o3, o4);
+
+            this.ev = Current;
+            show(); // TODO improve this code by using coroutine
         }
 
         // Use this for initialization
@@ -37,12 +49,10 @@ namespace ImportantManager
         }
 
         // Update is called once per frame
-        float flashtime = -1;
+        float flashtime = -1, waithalf = 0;
         float showtime = 4f, time_to_show = 0;
         bool up = true;
-
-        float waithalf = 0f;
-        bool sleeping = false;
+        
         void Update()
         {
             if (tofadewhite)
@@ -55,17 +65,6 @@ namespace ImportantManager
                         tofade = false;
                         f.FadeOut();
                     }
-                }
-            }
-
-            if (sleeping)
-            {
-                waithalf += Time.deltaTime;
-                if (waithalf > 1f)
-                {
-                    sleeping = false;
-                    waithalf = 0;
-                    Game.main.eventFinished(ev);
                 }
             }
 
@@ -172,36 +171,6 @@ namespace ImportantManager
             tofadewhite = true;
         }
 
-        public void duplicateWorld()
-        {
-            /*mainworld = GameObject.Find ("MainWorld");
-
-            grayscaleworld = GameObject.Instantiate (mainworld);
-
-            grayscaleworld.transform.SetParent (canvas.transform);
-
-            grayscaleworld.GetComponent<RectTransform> ().localPosition = new Vector3(0,0,0);
-
-            foreach(Transform t in grayscaleworld.transform){
-                Image i = t.GetComponent<Image> ();
-                if (i != null) {
-                    i.material = new Material (grayscale);
-                    i.color = new Color(1,1,1,0);
-                }
-            }
-
-            foreach(Transform t in mainworld.transform){
-                Image i = t.GetComponent<Image> ();
-                if (i != null) {
-                    Fade f = t.gameObject.AddComponent<Fade> ();
-                    f.FadeRate = 0.5f;
-                }
-            }
-
-            mainworld.transform.SetParent (Camera.main.transform);
-            mainworld.transform.SetParent (canvas.transform);
-            tofade = true;*/
-        }
         IGameEvent ev;
         public override void ReceiveEvent(IGameEvent ev)
         {
@@ -218,16 +187,6 @@ namespace ImportantManager
                 this.ev = ev;
                 show();
             }
-
-            if (ev.Name == "sleep")
-            {
-                this.ev = ev;
-                this.Sleep();
-            }
-        }
-
-        public override void Tick()
-        {
         }
     }
 }

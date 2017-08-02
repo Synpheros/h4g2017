@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using IsoUnity;
+using IsoUnity.Events;
+using IsoUnity.Sequences;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class WakeUpManager : MonoBehaviour {
 

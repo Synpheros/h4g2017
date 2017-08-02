@@ -1,9 +1,11 @@
-﻿using System;
+﻿using IsoUnity;
+using IsoUnity.Events;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ImageShower : EventManager {
+public class ImageShower : EventedEventManager {
     
     [SerializeField]
     public List<Sprite> images;
@@ -14,27 +16,20 @@ public class ImageShower : EventManager {
     public GameObject imageHolder;
 
     public UnityEngine.UI.Image sr;
-
     private IGameEvent ge;
-    public override void ReceiveEvent(IGameEvent ev)
-    {
-        if(ev.Name == "show image")
-        {
-            var t = (string) ev.getParameter("name");
-            var i = images.Find(s => s.name == t);
-            if (i)
-            {
-                ge = ev;
-                time = 0;
-                imageHolder.SetActive(true);
-                sr.sprite = i;
-                showing = true;
-            }
-        }
-    }
 
-    public override void Tick()
+    [GameEvent(false, false)]
+    private void ShowImage(string name)
     {
+        var i = images.Find(s => s.name == name);
+        if (i)
+        {
+            ge = Current;
+            time = 0;
+            imageHolder.SetActive(true);
+            sr.sprite = i;
+            showing = true;
+        }
     }
 
     // Use this for initialization

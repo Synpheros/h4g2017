@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using IsoUnity;
+using IsoUnity.Events;
 using UnityEngine;
 
 public class DialogAnimator : EventManager {

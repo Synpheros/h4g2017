@@ -1,9 +1,11 @@
-﻿using System;
+﻿using IsoUnity;
+using IsoUnity.Events;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MinigameInitializer : EventManager {
+public class MinigameInitializer : EventedEventManager {
 
     [SerializeField]
     BallGenerator minigameController;
@@ -11,28 +13,16 @@ public class MinigameInitializer : EventManager {
     private IGameEvent start;
 
     bool started = false;
-    public override void ReceiveEvent(IGameEvent ev)
-    {
-        if(ev.Name == "start futbol")
-        {
-            started = true;
-            start = ev;
-        }
-    }
 
-    public override void Tick()
+    [GameEvent(false, false)]
+    public void StartFutbol()
     {
+        started = true;
+        start = Current;
     }
-
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
-	// Update is called once per frame
 	void Update () {
         minigameController.gameObject.SetActive(started);
-
     }
 
     public void End()
