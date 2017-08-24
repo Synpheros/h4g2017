@@ -7,6 +7,7 @@ namespace IsoUnity
     [RequireComponent(typeof(IsoSwitchesEventManager))]
     public class Game : MonoBehaviour
     {
+        public bool debugEvents = false;
 
         /**
          * This var allows new Game instances load destroy the previous one and replace it.
@@ -104,6 +105,10 @@ namespace IsoUnity
         {
             if (ge == null)
                 return;
+            if (debugEvents)
+            {
+                Debug.Log(ge.Name);
+            }
             this.events.Enqueue(ge);
         }
 
@@ -136,6 +141,8 @@ namespace IsoUnity
 
         public void tick()
         {
+            FlushRegistrations();
+
             // Events launch
             while (events.Count > 0)
             {
@@ -146,8 +153,6 @@ namespace IsoUnity
             // EventManagers ticks
             foreach (var manager in eventManagers)
                 manager.Tick();
-
-            FlushRegistrations();
         }
 
         /**
