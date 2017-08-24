@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using System.Linq;
 
 namespace IsoUnity.Types
 {
@@ -25,12 +26,24 @@ namespace IsoUnity.Types
 	        return IsoUnityEnumType.CreateInstance<IsoUnityEnumType>();
 	    }
 
-	    public override object Value
+        public static Type GetEnumType(string name)
+        {
+            // Since unity has an specific assembly for Plugins, this is neccesary
+            return
+             (from assembly in AppDomain.CurrentDomain.GetAssemblies()
+              let type = assembly.GetType(name)
+              where type != null
+                 && type.IsEnum
+              select type).FirstOrDefault();
+        }
+
+        public override object Value
 	    {
 	        get
 	        {
-                var t = Type.GetType(type);
-                return t != null ? Enum.ToObject(t, enumerated): enumerated;
+                var t = GetEnumType(type);
+                var r =  t != null ? Enum.ToObject(t, enumerated): enumerated;
+                return r;
 	        }
 	        set
 	        {
