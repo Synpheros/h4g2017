@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSequence: {fileID: 11400000, guid: bc9c4dbaac154a64bbeb4f3daa2fdd33, type: 2}
-  creditsSequence: {fileID: 0}
+  creditsSequence: {fileID: 11400000, guid: 4cff121bae9a0bd4ab3921e155232e7d, type: 2}
 --- !u!225 &1023440621
 CanvasGroup:
   m_ObjectHideFlags: 0

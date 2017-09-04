@@ -64,7 +64,7 @@ MonoBehaviour:
     character: Madre
     parameter: sonriendo
   - name: Yo
-    msg: Es verdad, ha estado hablando con el profesor y la orientadora.
+    msg: Es verdad, ha estado hablando con la orientadora.
     character: Yo
     parameter: 
   - name: 
@@ -72,8 +72,7 @@ MonoBehaviour:
     character: Madre
     parameter: normal
   - name: "Pap\xE1"
-    msg: "Es la segunda vez que llegas tarde a recogerle este mes, sal con m\xE1s
-      tiempo"
+    msg: "Es la segunda vez que llegas tarde a casa este mes, sal con m\xE1s tiempo"
     character: Padre
     parameter: normal
   - name: "Pap\xE1"

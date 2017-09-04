@@ -17,7 +17,7 @@ public class Shake : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (ShakeIntensity > 0)
         {
@@ -27,7 +27,14 @@ public class Shake : MonoBehaviour
                                             OriginalRot.z + Random.Range(-ShakeIntensity, ShakeIntensity) * .2f,
                                             OriginalRot.w + Random.Range(-ShakeIntensity, ShakeIntensity) * .2f);
 
-            ShakeIntensity -= ShakeDecay;
+            ShakeIntensity -= ShakeDecay * Time.fixedDeltaTime;
+
+            if(ShakeIntensity <= 0)
+            {
+                transform.rotation = OriginalRot;
+                transform.position = OriginalPos;
+            }
+
         }
         else if (Shaking)
         {
@@ -37,11 +44,14 @@ public class Shake : MonoBehaviour
 
     public void DoShake()
     {
-        OriginalPos = transform.position;
-        OriginalRot = transform.rotation;
+        if (!Shaking)
+        {
+            OriginalPos = transform.position;
+            OriginalRot = transform.rotation;
+        }
 
         ShakeIntensity = 0.3f;
-        ShakeDecay = 0.02f;
+        ShakeDecay = 2f;
         Shaking = true;
     }
 }

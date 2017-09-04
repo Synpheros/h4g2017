@@ -229,7 +229,7 @@ Transform:
   m_GameObject: {fileID: 1527128477060366}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 4661537068740368}
   - {fileID: 4429367769894190}
@@ -296,7 +296,7 @@ Transform:
   m_GameObject: {fileID: 1091757534939508}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 4112369387845036}
   m_Father: {fileID: 4186274145080784}
@@ -310,7 +310,7 @@ Transform:
   m_GameObject: {fileID: 1486643765894828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 18, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 4787210251920114}
   - {fileID: 4640255622386358}
@@ -445,6 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideExecution: 0
   executeOnStart: 0
   loop: 0
   localExecution: 0
@@ -452,6 +453,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: a4f6b5bc777be7b48bb2e7c068a7ae8d, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!114 &114419163540056084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -463,6 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideExecution: 0
   executeOnStart: 0
   loop: 0
   localExecution: 0
@@ -470,6 +473,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 32e5b572faf01ca4d9c4be080cab3770, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!114 &114829030271208598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -481,6 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideExecution: 0
   executeOnStart: 0
   loop: 0
   localExecution: 0
@@ -488,6 +493,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 32e5b572faf01ca4d9c4be080cab3770, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!114 &114832691452594570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -499,6 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideExecution: 0
   executeOnStart: 0
   loop: 0
   localExecution: 0
@@ -506,6 +513,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 3bf02b750c7f70540839263878257db1, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!212 &212021251876650328
 SpriteRenderer:
   m_ObjectHideFlags: 1

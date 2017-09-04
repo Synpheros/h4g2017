@@ -129,6 +129,7 @@ public class CustomDialogManager : DialogEventManager {
             // create the options
             var option = GameObject.Instantiate(optionPrefab);
             option.transform.SetParent(optionsHolder.transform);
+            option.transform.localScale = Vector3.one;
             var text = option.transform.GetChild(0).GetComponent<Text>().text = o.Text;
             option.GetComponent<Button>().onClick.AddListener(() => {
                 optionSelected = opt.Find(e => e.Text == text);

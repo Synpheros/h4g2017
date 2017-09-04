@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 2
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -585,7 +585,7 @@ Prefab:
     - target: {fileID: 224108199896564444, guid: d573f38e38e79f949adc33b53e1cceaa,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -9.32
+      value: -9.28
       objectReference: {fileID: 0}
     - target: {fileID: 224371261888103106, guid: d573f38e38e79f949adc33b53e1cceaa,
         type: 2}
@@ -1090,6 +1090,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 3985bbd3f6516d84ca07e8c1041d7979, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!1 &2040152326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,6 +1126,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 0
   sharedSequence: {fileID: 11400000, guid: 8b473363817b6034bb728f366f8645c8, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!4 &2040152328
 Transform:
   m_ObjectHideFlags: 0

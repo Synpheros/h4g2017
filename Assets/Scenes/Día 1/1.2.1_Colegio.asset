@@ -577,7 +577,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 445
     y: 244
-    width: 223
+    width: 388
     height: 328
   collapsed: 1
 --- !u!114 &114311525287622600
@@ -806,7 +806,7 @@ MonoBehaviour:
     y: 411
     width: 219
     height: 236
-  collapsed: 0
+  collapsed: 1
 --- !u!114 &114412370699686658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1046,7 +1046,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 723
     y: 166
-    width: 223
+    width: 471
     height: 328
   collapsed: 1
 --- !u!114 &114538271842957556
@@ -1631,7 +1631,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1201
     y: 148
-    width: 223
+    width: 599
     height: 328
   collapsed: 1
 --- !u!114 &114864229192209372
@@ -1667,9 +1667,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189
     y: 346
-    width: 223
+    width: 532
     height: 186
-  collapsed: 0
+  collapsed: 1
 --- !u!114 &114875413683027216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1761,7 +1761,7 @@ MonoBehaviour:
     character: Yo
     parameter: narrativo
   - name: Ventu
-    msg: "Espero que est\xE9s listo para el ex\xE1men de hoy..."
+    msg: "Espero que est\xE9s listo para el examen de hoy..."
     character: Ventu
     parameter: preocupado
   - name: Ventu

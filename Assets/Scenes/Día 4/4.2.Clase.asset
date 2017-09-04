@@ -479,9 +479,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 544
     y: 193
-    width: 300
-    height: 287
-  collapsed: 1
+    width: 219
+    height: 288
+  collapsed: 0
 --- !u!114 &114227183189351004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,7 +615,7 @@ MonoBehaviour:
   d: 0
   s: 
   v2: {x: 0, y: 0}
-  v3: {x: -20.94, y: 2.1, z: 0}
+  v3: {x: -20.94, y: 1.65, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
   q: {x: 0, y: 0, z: 0, w: 0}
   b: 0
@@ -1196,7 +1196,7 @@ MonoBehaviour:
   d: 0
   s: 
   v2: {x: 0, y: 0}
-  v3: {x: 0.25, y: 0.25, z: 1}
+  v3: {x: 0.2, y: 0.2, z: 1}
   v4: {x: 0, y: 0, z: 0, w: 0}
   q: {x: 0, y: 0, z: 0, w: 0}
   b: 0

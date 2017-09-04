@@ -273,6 +273,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 8e362e844d3332c48af408dc19bed3ef, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!1001 &788041612
 Prefab:
   m_ObjectHideFlags: 0
@@ -477,7 +478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 2
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -523,6 +524,55 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1185234322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1185234324}
+  - component: {fileID: 1185234323}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1185234323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1185234322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4a24f7c6c774d4b892492280e6f417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideExecution: 0
+  executeOnStart: 1
+  loop: 0
+  localExecution: 0
+  launchOnTriggerEnter: 0
+  launchOnMouseUpAsButton: 0
+  sharedSequence: {fileID: 0}
+  localSequence: {fileID: 0}
+  backin: 1
+--- !u!4 &1185234324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1185234322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237580387 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1549687032170308, guid: d30f8ac5cefd44f4894d900bbf7bf6b2,
@@ -974,6 +1024,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: f5b6c1e3900ce7d4386eb1f68f0b35bb, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!1001 &2141785746
 Prefab:
   m_ObjectHideFlags: 0

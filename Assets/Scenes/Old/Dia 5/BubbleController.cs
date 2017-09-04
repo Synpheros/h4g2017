@@ -18,7 +18,7 @@ public class BubbleController : EventedEventManager {
         var g = Instantiate(rightBubble, canvas.transform);
         g.GetComponentInChildren<UnityEngine.UI.Text>().text = text;
         //g.transform.SetParent();
-        g.transform.localPosition = new Vector3(539f, 44f, 1);
+        g.transform.localPosition = new Vector3(220f, 44f, 1);
         shake.DoShake();
 
         yield return WaitForMouseButtonDown(0);
@@ -32,7 +32,7 @@ public class BubbleController : EventedEventManager {
         var g = Instantiate(leftBubble, canvas.transform);
         g.GetComponentInChildren<UnityEngine.UI.Text>().text = text;
         //g.transform.SetParent();
-        g.transform.localPosition = new Vector3(-462, 133, 1);
+        g.transform.localPosition = new Vector3(-200, 83, 1);
         shake.DoShake();
 
         yield return WaitForMouseButtonDown(0);

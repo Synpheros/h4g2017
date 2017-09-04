@@ -687,7 +687,7 @@ MonoBehaviour:
     parameter: normal
   - name: Profesor
     msg: "Debido a algunos acontecimientos recientes la orientadora y yo hemos decidido
-      que ma\xF1ana vamos a hacer una charla."
+      que ma\xF1ana vamos a dar una charla."
     character: Profesor
     parameter: preocupado
   - name: Profesor

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
   m_Name: 5.1
   m_EditorClassIdentifier: 
-  root: {fileID: 114002768233155834}
+  root: {fileID: 114510537745663922}
   localVariables: {fileID: 114388463213769968}
   nodes:
   - {fileID: 114002768233155834}
@@ -36,14 +36,14 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   childs:
-  - {fileID: 114510537745663922}
+  - {fileID: 114663029957006034}
   isUnityObject: 1
   objectContent: {fileID: 114496792629431162}
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 225
-    y: 366
+    x: 634
+    y: 381
     width: 305
     height: 186
   collapsed: 0
@@ -181,14 +181,14 @@ MonoBehaviour:
   m_Name: GameEvent
   m_EditorClassIdentifier: 
   childs:
-  - {fileID: 114663029957006034}
+  - {fileID: 114002768233155834}
   isUnityObject: 1
   objectContent: {fileID: 114424008627358778}
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 624
-    y: 424
+    x: 198
+    y: 353
     width: 300
     height: 113
   collapsed: 0

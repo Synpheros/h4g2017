@@ -105,7 +105,7 @@ MonoBehaviour:
     y: 359
     width: 223
     height: 328
-  collapsed: 1
+  collapsed: 0
 --- !u!114 &114032032511046118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragments:
   - name: Profesor
-    msg: "Se acab\xF3 el ex\xE1men."
+    msg: "Se acab\xF3 el examen."
     character: ProfesorMiniGame
     parameter: 
   - name: 
@@ -1811,7 +1811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragments:
   - name: Ventu
-    msg: "\xBFQu\xE9 tal te ha salido el ex\xE1men?"
+    msg: "\xBFQu\xE9 tal te ha salido el examen?"
     character: Ventu
     parameter: normal
   - name: Yo

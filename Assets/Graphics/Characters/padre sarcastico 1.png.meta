@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e5e341a2a760af546ae7b5716d7b656c
-timeCreated: 1504474624
+guid: 7bf2baad99713ba45bdb014ff227397c
+timeCreated: 1504539169
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: foreClase_0
+    21300000: padre sarcastico 1_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -41,9 +41,9 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 86
+  spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -95,13 +95,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foreClase_0
+      name: padre sarcastico 1_0
       rect:
         serializedVersion: 2
-        x: 174
-        y: 216
-        width: 1536
-        height: 864
+        x: 509
+        y: 171
+        width: 554
+        height: 2206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

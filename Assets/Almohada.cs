@@ -18,19 +18,7 @@ public class Almohada : EventedEventManager {
     bool clicked = false;
     private void OnMouseUpAsButton()
     {
-
-        if (sequence)
-        {
-            var ge = new GameEvent("start sequence", new Dictionary<string, object>()
-            {
-                { "sequence", sequence }
-            });
-            Game.main.enqueueEvent(ge);
-        }
-        else
-        {
-            clicked = true;
-        }
+        clicked = true;
     }
 
 
@@ -41,9 +29,22 @@ public class Almohada : EventedEventManager {
 
         yield return new WaitUntil(() => clicked);
 
-        animator.SetTrigger("In");
+        if (sequence)
+        {
+            var ge = new GameEvent("start sequence", new Dictionary<string, object>()
+            {
+                { "sequence", sequence }
+            });
+            Game.main.enqueueEvent(ge);
+            yield return new WaitForEventFinished(ge);
+        }
+        else
+        {
+            animator.SetTrigger("In");
 
-        yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(2);
+        }
+
     }
 
 }

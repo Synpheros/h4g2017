@@ -47,7 +47,15 @@ public class PortadaController : EventedEventManager {
 
     public void Credits()
     {
+        if (play)
+            return;
 
+        play = true;
+
+        Game.main.enqueueEvent(new GameEvent("start sequence", new Dictionary<string, object>()
+        {
+            {"sequence", creditsSequence}
+        }));
     }
 
     public void Exit()

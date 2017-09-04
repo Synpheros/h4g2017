@@ -165,7 +165,7 @@ MonoBehaviour:
     character: Padre
     parameter: normal
   - name: Yo
-    msg: "\xA1Genial! Hoy hemos tenido un ex\xE1men y seguro que lo apruebo con nota."
+    msg: "\xA1Genial! Hoy hemos tenido un examen y seguro que lo apruebo con nota."
     character: Yo
     parameter: 
   - name: "Pap\xE1"
@@ -234,7 +234,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218
     y: 243
-    width: 300
+    width: 583
     height: 328
   collapsed: 1
 --- !u!114 &114580094675609826

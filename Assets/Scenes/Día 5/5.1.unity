@@ -198,6 +198,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 4f897e5a95503dd4993fb17857a484eb, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!1 &92325855
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +266,7 @@ Transform:
   m_GameObject: {fileID: 92325855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -18, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 974880013}
   - {fileID: 507733871}
@@ -339,7 +340,7 @@ Transform:
   m_GameObject: {fileID: 269917519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -36, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 2097142609}
   m_Father: {fileID: 522794581}
@@ -412,7 +413,7 @@ Transform:
   m_GameObject: {fileID: 286237020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -54, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: -0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 686435734}
   m_Father: {fileID: 522794581}
@@ -445,7 +446,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507733870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.3900003, y: -0.57, z: 0}
+  m_LocalPosition: {x: 7.61, y: -0.57, z: 0}
   m_LocalScale: {x: 0.13378, y: -0.07271, z: 1}
   m_Children: []
   m_Father: {fileID: 92325857}
@@ -471,6 +472,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: d37047ceb6bc5274483f3b3ea5c5147e, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!61 &507733873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -711,6 +713,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: adbd9a4fed25e6f428e97474b76dc0e7, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!61 &686435736
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -845,7 +848,7 @@ Transform:
   m_GameObject: {fileID: 943461444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children:
   - {fileID: 998343332}
   m_Father: {fileID: 522794581}
@@ -904,6 +907,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: adbd9a4fed25e6f428e97474b76dc0e7, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!61 &974880015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1110,7 +1114,7 @@ Transform:
   m_GameObject: {fileID: 1180414073}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -36, y: 10.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 522794581}
   m_RootOrder: 3
@@ -1284,7 +1288,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!1 &1656900768 stripped
 GameObject:
@@ -1309,7 +1313,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!1001 &1900614314
 Prefab:
@@ -1418,6 +1422,16 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 9.43
       objectReference: {fileID: 0}
+    - target: {fileID: 224108199896564444, guid: d573f38e38e79f949adc33b53e1cceaa,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224371261888103106, guid: d573f38e38e79f949adc33b53e1cceaa,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d573f38e38e79f949adc33b53e1cceaa, type: 2}
   m_IsPrefabParent: 0
@@ -1448,7 +1462,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2097142608}
   m_LocalRotation: {x: -0, y: -0, z: 0.7065539, w: 0.7076593}
-  m_LocalPosition: {x: 8.379999, y: -0.53, z: 0}
+  m_LocalPosition: {x: 8.61, y: -1, z: 0}
   m_LocalScale: {x: 0.13378012, y: -0.07271006, z: 1}
   m_Children: []
   m_Father: {fileID: 269917521}
@@ -1474,6 +1488,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 1
   sharedSequence: {fileID: 11400000, guid: 0d25c971bc808d84ea3bf6f4fa07f371, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!61 &2097142611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1576,6 +1591,7 @@ MonoBehaviour:
   launchOnMouseUpAsButton: 0
   sharedSequence: {fileID: 11400000, guid: a07a608aa0e88b0468d83a6ffd339bb7, type: 2}
   localSequence: {fileID: 0}
+  backin: 1
 --- !u!4 &2111989672
 Transform:
   m_ObjectHideFlags: 0

@@ -72,6 +72,7 @@ namespace IsoUnity
                     if (Game.main != null)
                     {
                         Game.main.transform.position = this.transform.position;
+                        Camera.main.backgroundColor = this.GetComponent<Camera>().backgroundColor;
                         GameObject.DestroyImmediate(this.gameObject);
                         return;
                     }

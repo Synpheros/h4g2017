@@ -209,7 +209,7 @@ MonoBehaviour:
     character: Profesor
     parameter: 
   - name: Yo
-    msg: "A ver... \xA1Oh! \xA1Genial! \xA1Un 9! Debe ser que me distra\xED de tanto
+    msg: "A ver... \xA1Oh! \xA1Genial! \xA1Un 9! Debe ser que me distraje de tanto
       toser jajaja"
     character: Yo
     parameter: 
@@ -856,7 +856,7 @@ MonoBehaviour:
   d: 0
   s: 
   v2: {x: 0, y: 0}
-  v3: {x: -2, y: -0.3, z: 0}
+  v3: {x: -2, y: 0.5, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
   q: {x: 0, y: 0, z: 0, w: 0}
   b: 0
@@ -1657,7 +1657,7 @@ MonoBehaviour:
     y: 227
     width: 219
     height: 236
-  collapsed: 1
+  collapsed: 0
 --- !u!114 &114566961892413328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1848,7 +1848,7 @@ MonoBehaviour:
     y: 224
     width: 223
     height: 328
-  collapsed: 1
+  collapsed: 0
 --- !u!114 &114640533122775800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2788,7 +2788,7 @@ MonoBehaviour:
     y: 293
     width: 219
     height: 236
-  collapsed: 1
+  collapsed: 0
 --- !u!114 &114985741352822004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2805,7 +2805,7 @@ MonoBehaviour:
   d: 0
   s: 
   v2: {x: 0, y: 0}
-  v3: {x: 0.1, y: 0.1, z: 0}
+  v3: {x: 0.05, y: 0.05, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
   q: {x: 0, y: 0, z: 0, w: 0}
   b: 0

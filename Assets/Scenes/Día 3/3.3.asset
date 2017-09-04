@@ -307,7 +307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2004
     y: 154
-    width: 300
+    width: 223
     height: 186
   collapsed: 1
 --- !u!114 &114202559647386650
@@ -408,9 +408,9 @@ MonoBehaviour:
   secuence: {fileID: 11400000}
   position:
     serializedVersion: 2
-    x: 2189
-    y: 294
-    width: 385
+    x: 2247
+    y: 273
+    width: 223
     height: 328
   collapsed: 1
 --- !u!114 &114255411385124276
@@ -506,13 +506,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fragments:
   - name: "Pap\xE1"
-    msg: Tu madre no vale para esto...
-    character: Padre
-    parameter: enfadado
-  - name: "Pap\xE1"
-    msg: A ella se le da mejor cocinar.
+    msg: "A mam\xE1 no se le da bien el f\xFAtbol..."
     character: Padre
     parameter: sarcastico
+  - name: "Pap\xE1"
+    msg: A ella se le dan mejor otras cosas... Como cocinar.
+    character: Padre
+    parameter: 
   - name: Yo
     msg: "S\xED, es verdad que se le da bien, jajaja"
     character: Yo
@@ -858,7 +858,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123
     y: 436
-    width: 300
+    width: 223
     height: 256
   collapsed: 1
 --- !u!114 &114642232597512330
@@ -953,7 +953,7 @@ MonoBehaviour:
     character: Madre
     parameter: triste
   - name: "Pap\xE1"
-    msg: "Demu\xE9strame que has sacado mis genes y no los de tu madre"
+    msg: "Demu\xE9strame que has sacado mis genes"
     character: Padre
     parameter: futbol
 --- !u!114 &114692959821333422
@@ -1395,7 +1395,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 613
     y: 387
-    width: 300
+    width: 223
     height: 328
   collapsed: 1
 --- !u!114 &114935171308590386

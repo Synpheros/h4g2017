@@ -66,7 +66,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.54, y: 22.060001}
+  m_Size: {x: 5.54, y: 25.19}
   m_EdgeRadius: 0
 --- !u!114 &114028048935508990
 MonoBehaviour:
@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkTime: 0.3
+  startingExpression: 
   expressions:
   - expression: normal
     sprite: {fileID: 21300000, guid: 04f3a5a13f592024f9bfe7bddef3a3f8, type: 3}
@@ -87,10 +88,10 @@ MonoBehaviour:
     talking: {fileID: 21300000, guid: 1874f4333a61ec945abb00b701ed146b, type: 3}
     talkingBlink: {fileID: 21300000, guid: 800e63d01287876499f30573c2bf45eb, type: 3}
   - expression: sarcastico
-    sprite: {fileID: 21300000, guid: 0198171b47a6d1a40857fc134fa415a3, type: 3}
-    blink: {fileID: 21300000, guid: e85ee92ebdd71b54eb1940b4624c21d0, type: 3}
-    talking: {fileID: 21300000, guid: a926f578f23c2754bbd3ed692da08bc8, type: 3}
-    talkingBlink: {fileID: 21300000, guid: 1a195a2fa92796a49974a1a1a6dcf803, type: 3}
+    sprite: {fileID: 21300000, guid: ed5becdd9fd4e984fa1c5ee64da2a69e, type: 3}
+    blink: {fileID: 21300000, guid: 00e00f11015c4ed42bd0c5a070a03243, type: 3}
+    talking: {fileID: 21300000, guid: 7bf2baad99713ba45bdb014ff227397c, type: 3}
+    talkingBlink: {fileID: 21300000, guid: 2516d2a6ec99e0f4eb596e32870955ae, type: 3}
   - expression: enfadado
     sprite: {fileID: 21300000, guid: 0198171b47a6d1a40857fc134fa415a3, type: 3}
     blink: {fileID: 21300000, guid: e85ee92ebdd71b54eb1940b4624c21d0, type: 3}
