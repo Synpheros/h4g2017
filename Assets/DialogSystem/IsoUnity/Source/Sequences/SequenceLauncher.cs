@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using IsoUnity.Events;
+using System.Collections;
 
 namespace IsoUnity.Sequences {
 	public class SequenceLauncher : EventManager {
 
-		[SerializeField]
+        [SerializeField]
+        public bool overrideExecution = false;
+
+        [SerializeField]
 		public bool executeOnStart;
 
 		[SerializeField]
@@ -55,18 +59,45 @@ namespace IsoUnity.Sequences {
 		}
 
 		void OnMouseUpAsButton(){
-			if (localExecution) {
+			if (launchOnMouseUpAsButton && (!sr || sr.color.a > 0)) {
 				Launch ();
 			}
 		}
+
+        private SpriteRenderer sr;
+        private SequenceManager sm;
+
+        public bool backin = true;
 
 		void Start(){
 			this.Sequence = sharedSequence;
+            sr = GetComponent<SpriteRenderer>();
+            sm = FindObjectOfType<SequenceManager>(); 
 
-			if (executeOnStart) {
-				Launch ();
+
+            if (executeOnStart) {
+                if (backin)
+                {
+                    StartCoroutine(BackinRoutine());
+                }
+                else
+                {
+                    Launch();
+                }
 			}
 		}
+
+        private IEnumerator BackinRoutine()
+        {
+            yield return null;
+
+            var ge = new GameEvent("backin", new System.Collections.Generic.Dictionary<string, object>() { { "synchronous", true } });
+            Game.main.enqueueEvent(ge);
+
+            yield return new WaitForEventFinished(ge);
+
+            Launch();
+        }
 
 
 		private SequenceInterpreter interpreter;
@@ -84,6 +115,9 @@ namespace IsoUnity.Sequences {
 
 
 		public void Launch(){
+            if (!overrideExecution && sm.Executing.Count > 0)
+                return;
+
 			if (interpreter != null || localSequence == null)
 				return;
 

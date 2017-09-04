@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Eye : MonoBehaviour {
 
+    public Vector2 openPosition;
+
     private bool closing;
     private Vector2 finalPosition;
 
@@ -17,7 +19,13 @@ public class Eye : MonoBehaviour {
 	}
 
     public void close(){
-        this.finalPosition = new Vector3 (transform.localPosition.x, -20f, 4f);
+        this.finalPosition = new Vector3 (transform.localPosition.x, minXY.y, 4f);
+        closing = true;
+    }
+
+    public void open()
+    {
+        this.finalPosition = new Vector3(openPosition.x, openPosition.y, 4f);
         closing = true;
     }
 
@@ -42,7 +50,7 @@ public class Eye : MonoBehaviour {
                 destination = finalPosition;
             }
             // Limit the X & Y to minimum values
-            destination.y = Mathf.Max (minXY.y, destination.y);
+            //destination.y = minXY.y > 0 ? Mathf.Max (minXY.y, destination.y) : Mathf.Min(minXY.y, destination.y);
             // Interpolate from the current Camera position toward destination
             destination = Vector3.Lerp (transform.localPosition, destination, easing);
             // Retain a destination.z of camZ

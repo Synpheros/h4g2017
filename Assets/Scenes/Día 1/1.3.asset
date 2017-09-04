@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
+  m_Name: 1.3
+  m_EditorClassIdentifier: 
+  root: {fileID: 114570601507906512}
+  localVariables: {fileID: 114160660700762274}
+  nodes:
+  - {fileID: 114570601507906512}
+  - {fileID: 114255307982082732}
+  - {fileID: 114748039486922212}
+  ids:
+  - -652676
+  - -659126
+  - -662622
+  assetinited: 1
+--- !u!114 &114083021607045024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: fade out
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  - name
+  - movement
+  - sizechange
+  - duration
+  - type
+  values:
+  - {fileID: 114311408185026422}
+  - {fileID: 114187451921008120}
+  - {fileID: 114122144775117760}
+  - {fileID: 114916422093828066}
+  - {fileID: 114481494686160368}
+  - {fileID: 114580094675609826}
+--- !u!114 &114122144775117760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: -5, y: -1, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: UnityEngine.Vector3
+--- !u!114 &114160660700762274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f903b5c05730594280dcba273e69bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switches: []
+--- !u!114 &114187451921008120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: Madre
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114255307982082732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114748039486922212}
+  isUnityObject: 1
+  objectContent: {fileID: 114083021607045024}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 407
+    y: 184
+    width: 300
+    height: 193
+  collapsed: 0
+--- !u!114 &114311408185026422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114337245170441304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: "El t\xEDo"
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: "Pap\xE1"
+    msg: "Hola campe\xF3n. \xBFQu\xE9 tal en el colegio?"
+    character: Padre
+    parameter: normal
+  - name: Yo
+    msg: "\xA1Genial! Hoy hemos tenido un ex\xE1men y seguro que lo apruebo con nota."
+    character: Yo
+    parameter: 
+  - name: "Pap\xE1"
+    msg: "\xA1Qu\xE9 bien!"
+    character: Padre
+    parameter: 
+  - name: "Pap\xE1"
+    msg: "\xBFY t\xFA cari\xF1o?"
+    character: Padre
+    parameter: enfadado
+  - name: "Pap\xE1"
+    msg: "Espero que tengas claro lo que hemos hablado esta ma\xF1ana de aquel t\xEDo..."
+    character: Padre
+    parameter: 
+  - name: "Mam\xE1"
+    msg: "S\xED cari\xF1o... Te lo promet\xED."
+    character: Madre
+    parameter: triste
+  - name: "Pap\xE1"
+    msg: "Bueno... \xA1vamos a cenar!"
+    character: Padre
+    parameter: normal
+  - name: "Mam\xE1"
+    msg: Ya voy cielo.
+    character: Madre
+    parameter: normal
+--- !u!114 &114481494686160368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 2
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Single
+--- !u!114 &114570601507906512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114255307982082732}
+  isUnityObject: 1
+  objectContent: {fileID: 114337245170441304}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 218
+    y: 243
+    width: 300
+    height: 328
+  collapsed: 1
+--- !u!114 &114580094675609826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588a04c1e0949e04bb22e19933871b5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumerated: 15
+  type: GoEaseType
+--- !u!114 &114748039486922212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114809963257932546}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 868
+    y: 185
+    width: 300
+    height: 326
+  collapsed: 0
+--- !u!114 &114809963257932546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: "Pap\xE1"
+    msg: Veamos si es verdad...
+    character: Padre
+    parameter: normal
+  - name: Yo
+    msg: Bueno, voy a ver la tele un rato.
+    character: Yo
+    parameter: 
+  - name: 
+    msg: 
+    character: Padre
+    parameter: moviles
+--- !u!114 &114916422093828066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0.1, y: 0.1, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: UnityEngine.Vector3

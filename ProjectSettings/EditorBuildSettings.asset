@@ -6,44 +6,62 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Portada.unity
+    guid: 1347777ac13e5c542a15c194c45c7ada
+  - enabled: 1
     path: Assets/transition.unity
+    guid: ac808331da71b854ba50e82cb1fb54d4
   - enabled: 1
-    path: Assets/Dia 4/Dia4_1.unity
+    path: "Assets/Scenes/D\xEDa 1/1.1.unity"
+    guid: f622c972d5c8d0f40b99028268d88749
   - enabled: 1
-    path: Assets/Dia 4/Dia4_2.unity
+    path: "Assets/Scenes/D\xEDa 1/1.2.unity"
+    guid: 339096882ef2b7041a0be0894a80967d
   - enabled: 1
-    path: Assets/Dia 4/Dia4_3.unity
+    path: "Assets/Scenes/D\xEDa 1/1.3.unity"
+    guid: 4a82c861a77c2354cb58bdaddbd9035b
   - enabled: 1
-    path: Assets/Dia 3/dia3_3.unity
+    path: "Assets/Scenes/D\xEDa 2/2.1.unity"
+    guid: 3d973506c07760c47981e79065e1739b
   - enabled: 1
-    path: Assets/Dia 3/dia3_2.unity
+    path: "Assets/Scenes/D\xEDa 2/2.2.unity"
+    guid: 89dd78c2e1108fb4e9ae0a1693ffd9e8
   - enabled: 1
-    path: Assets/Dia 3/dia3_1.unity
+    path: "Assets/Scenes/D\xEDa 2/2.3.unity"
+    guid: b2e99ea7138723043b75fb0d3e8562c8
   - enabled: 1
-    path: Assets/Dia 2/dia2casa.unity
+    path: "Assets/Scenes/D\xEDa 3/3.1.unity"
+    guid: e005e5201f6745b458237ebfd1d49344
   - enabled: 1
-    path: Assets/Dia 2/dia2colegio1.unity
+    path: "Assets/Scenes/D\xEDa 3/3.2.unity"
+    guid: fd631899c6f6f8e4890bf53fd4d646db
   - enabled: 1
-    path: Assets/Dia 2/dia2colegio2.unity
+    path: "Assets/Scenes/D\xEDa 3/3.3.unity"
+    guid: 103683d7e90f4f440bf1f608dba2f5e7
   - enabled: 1
-    path: Assets/Dia 1/dia1_1.unity
+    path: "Assets/Scenes/D\xEDa 3/3.4.unity"
+    guid: 8c6b05d528d7c3f49ac2b16c65643984
   - enabled: 1
-    path: Assets/Dia 5/Dia5_1.unity
+    path: "Assets/Scenes/D\xEDa 4/4.1.unity"
+    guid: b40fcfa99afdcd048b52edd2d5597cc8
   - enabled: 1
-    path: Assets/Dia 5/Dia5_2.unity
+    path: "Assets/Scenes/D\xEDa 4/4.2.unity"
+    guid: 54bcb145e2e17954395847cbc723ce0e
   - enabled: 1
-    path: Assets/Dia 5/Dia5_3.unity
+    path: "Assets/Scenes/D\xEDa 4/4.3.unity"
+    guid: b8c78bcc91b2a464994d75cabf34654c
   - enabled: 1
-    path: Assets/Dia 5/Dia5_4.unity
+    path: "Assets/Scenes/D\xEDa 5/5.1.unity"
+    guid: 268a8493b9f30324db4a4e06d87d7352
   - enabled: 1
-    path: Assets/Dia 5/Dia5_5.unity
+    path: "Assets/Scenes/D\xEDa 5/5.2.unity"
+    guid: 4203d459265d98947863bfc4c2fbbb3c
   - enabled: 1
-    path: Assets/Dia 5/Dia5_6.unity
+    path: "Assets/Scenes/D\xEDa 5/5.3.unity"
+    guid: 2d36c9c7d9bddbb4c9e51ba53b3ee2df
   - enabled: 1
-    path: Assets/Dia 1/dia1_2.unity
+    path: "Assets/Scenes/D\xEDa 5/5.4.unity"
+    guid: 67d2c44e1dc4eae4cacf7dce9f26776a
   - enabled: 1
-    path: Assets/Dia 1/dia1_3.unity
-  - enabled: 1
-    path: Assets/Dia 6/dia6_1.unity
-  - enabled: 1
-    path: Assets/Dia 1/dia1_4.unity
+    path: "Assets/Scenes/D\xEDa 6/6.1.unity"
+    guid: 59a133c1741cca846a5468dcf134f544

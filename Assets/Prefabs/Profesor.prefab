@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1910339468605178}
+  m_IsPrefabParent: 1
+--- !u!1 &1910339468605178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4674619650854786}
+  - component: {fileID: 212428779660644562}
+  - component: {fileID: 114712051849443096}
+  - component: {fileID: 114227916096135216}
+  - component: {fileID: 61167762556731434}
+  m_Layer: 0
+  m_Name: Profesor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4674619650854786
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910339468605178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.77, y: -1.81, z: 0}
+  m_LocalScale: {x: 0.5190957, y: 0.5190957, z: 1.0381914}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61167762556731434
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910339468605178}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.45, y: 23.44}
+    newSize: {x: 9.45, y: 23.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.45, y: 23.44}
+  m_EdgeRadius: 0
+--- !u!114 &114227916096135216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910339468605178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af71c9f442043b43b653093ea1a5630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetween: 2
+  variation: 1
+--- !u!114 &114712051849443096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910339468605178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4436524c2fad74daa97483de8c4a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkTime: 0.3
+  expressions:
+  - expression: normal
+    sprite: {fileID: 21300000, guid: 41de4a59e571eb740915f2a3da3fab93, type: 3}
+    blink: {fileID: 21300000, guid: 0d99b03dbabd00b408e05a2fa1a33c94, type: 3}
+    talking: {fileID: 21300000, guid: d9b36175f6d46144d83839159346a82a, type: 3}
+    talkingBlink: {fileID: 21300000, guid: a31c1dbbdfd570348b7f5ae9b45d84ae, type: 3}
+  - expression: enfadado
+    sprite: {fileID: 21300000, guid: e5bdf39ddb749844aad683e55c1c184c, type: 3}
+    blink: {fileID: 21300000, guid: 4b0a580143b4e764d87353a3f9703798, type: 3}
+    talking: {fileID: 21300000, guid: 1bb613967242c7a4fabf322cb9a83e3d, type: 3}
+    talkingBlink: {fileID: 21300000, guid: aeb1794083219e44ea4c5d18a3b912b4, type: 3}
+  - expression: preocupado
+    sprite: {fileID: 21300000, guid: 235d8bcb2cd056446a03aaba643c9eec, type: 3}
+    blink: {fileID: 21300000, guid: e32031c5d7ac5b746802149d0cfe967d, type: 3}
+    talking: {fileID: 21300000, guid: 7b38429ae2fb29d4d906e49b260c2e3a, type: 3}
+    talkingBlink: {fileID: 21300000, guid: c1ec9d448b8690842a348ce4139835b3, type: 3}
+--- !u!212 &212428779660644562
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910339468605178}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 41de4a59e571eb740915f2a3da3fab93, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 9.45, y: 23.44}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0

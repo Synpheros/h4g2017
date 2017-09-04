@@ -1,4 +1,5 @@
-﻿using IsoUnity.Events;
+﻿using IsoUnity;
+using IsoUnity.Events;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,8 +17,13 @@ public class SceneChanger : EventedEventManager
     }
 
     [GameEvent(true, false)]
-    public void ChangeSlide(string title, string subtitle, string next)
+    public IEnumerator ChangeSlide(string title, string subtitle, string next)
     {
+        var go = new GameEvent("blackout", new Dictionary<string, object>() { { "synchronous", true } });
+        Game.main.enqueueEvent(go);
+
+        yield return new WaitForEventFinished(go);
+
         h4g2.GameState.S.setNext(title, subtitle, next);
         SceneManager.LoadScene("transition");
     }

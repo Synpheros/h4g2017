@@ -18,6 +18,13 @@ namespace IsoUnity.Events
                 Game.main.DeRegisterEventManager(this);
         }
 
+        private void OnDestroy()
+        {
+
+            if (Game.main != null)
+                Game.main.DeRegisterEventManager(this);
+        }
+
         public abstract void ReceiveEvent(IGameEvent ev);
         public abstract void Tick();
 

@@ -26,6 +26,12 @@ namespace IsoUnity.Events
 
         internal static void EventHappened(MonoBehaviour reference, Dictionary<GameEventConfig, MethodInfo> calls, Dictionary<MethodInfo, GameEventAttribute> attrInfo, IGameEvent ge)
         {
+            if(reference == null)
+            {
+                Debug.LogWarning("WTF");
+                return;
+            }
+
             if (calls != null && calls.Count > 0)
             {
                 var config = new GameEventConfig(ge);

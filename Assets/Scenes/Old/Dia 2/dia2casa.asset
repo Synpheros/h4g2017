@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
+  m_Name: dia2casa
+  m_EditorClassIdentifier: 
+  root: {fileID: 114009147846564648}
+  localVariables: {fileID: 0}
+  nodes:
+  - {fileID: 114009147846564648}
+  - {fileID: 114813084126760830}
+  ids:
+  - -7656
+  - -144922
+  assetinited: 1
+--- !u!114 &114009147846564648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114813084126760830}
+  isUnityObject: 1
+  objectContent: {fileID: 114351768246733644}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 200
+    y: 174
+    width: 344
+    height: 328
+  collapsed: 0
+--- !u!114 &114221965812619446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114301371302249510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: change slide
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  - title
+  - subtitle
+  - next
+  values:
+  - {fileID: 114221965812619446}
+  - {fileID: 114398429722983818}
+  - {fileID: 114425385003744104}
+  - {fileID: 114447128143923292}
+--- !u!114 &114351768246733644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: dia2casa
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: "Pap\xE1"
+    msg: "\xBFPor qu\xE9 habe\xEDs llegado tan tarde?"
+    character: 
+    parameter: 
+  - name: "Mam\xE1"
+    msg: "Lo siento, ha habido un accidente en la carretera y hab\xEDa mucho atasco"
+    character: 
+    parameter: 
+  - name: "T\xFA"
+    msg: Es verdad, ha llegado tarde a recogerme
+    character: 
+    parameter: 
+  - name: "Pap\xE1"
+    msg: "Es la segunda vez que llegas tarde a recogerle este mes, sal con m\xE1s
+      tiempo"
+    character: Madre
+    parameter: normal
+  - name: "Pap\xE1"
+    msg: "Por eso, a\xFAn no tengo el ba\xF1o preparado y la cena no est\xE1 hecha"
+    character: Padre
+    parameter: sarcastico
+  - name: "Pap\xE1"
+    msg: "Vamos! Ya est\xE1s tardando"
+    character: Madre
+    parameter: cerrados
+  - name: "Pap\xE1"
+    msg: "Vamos hijo, vamos a ver la tele mientras tu madre hace la cena. Hoy me ba\xF1ar\xE9
+      despu\xE9s de la cena"
+    character: Padre
+    parameter: feliz
+  - name: "Pap\xE1"
+    msg: "\xBF\xA1Entiendes cari\xF1o!?"
+    character: Madre
+    parameter: cerrados
+  - name: "Mam\xE1"
+    msg: Si cielo...
+    character: Madre
+    parameter: normal
+--- !u!114 &114398429722983818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: "D\xEDa 3"
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114425385003744104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: Al la salida del colegio
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114447128143923292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: dia3_1
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.String
+--- !u!114 &114813084126760830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114301371302249510}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 869
+    y: 209
+    width: 340
+    height: 125
+  collapsed: 0

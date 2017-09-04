@@ -71,6 +71,7 @@ namespace IsoUnity
                 {
                     if (Game.main != null)
                     {
+                        Game.main.transform.position = this.transform.position;
                         GameObject.DestroyImmediate(this.gameObject);
                         return;
                     }
@@ -170,7 +171,7 @@ namespace IsoUnity
         List<IEventManager> toDeregister = new List<IEventManager>();
         public void DeRegisterEventManager(IEventManager em)
         {
-            if (this.eventManagers.Contains(em))
+            if (this.eventManagers.Contains(em) || toRegister.Contains(em))
                 toDeregister.Add(em);
         }
 

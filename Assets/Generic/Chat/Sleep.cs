@@ -17,4 +17,12 @@ public class Sleep : MonoBehaviour {
             t.GetComponent<Eye> ().close ();
         }
     }
+
+    public void wake()
+    {
+        foreach (Transform t in this.transform)
+        {
+            t.GetComponent<Eye>().open();
+        }
+    }
 }

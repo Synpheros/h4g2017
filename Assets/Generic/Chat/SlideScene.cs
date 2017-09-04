@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.ImageEffects;
 
 public class SlideScene : MonoBehaviour {
 
@@ -10,6 +11,15 @@ public class SlideScene : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+       /* var b = Camera.main.GetComponent<Blackout>();
+        var bl = Camera.main.GetComponent<Blur>();
+        b.enabled = false;
+        b.rampOffset = 0;
+        bl.enabled = false;
+        bl.Iterations = 0;
+        bl.BlurSpread = 0;*/
+
         this.def = h4g2.GameState.S.nextScene ();
 
         this.canvas = GameObject.Find ("Canvas");

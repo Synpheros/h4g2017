@@ -22,9 +22,16 @@ namespace ImportantManager
         bool tofade = false;
 
         [GameEvent(true, false)]
-        public IEnumerable Sleep()
+        public IEnumerator Sleep()
         {
             this.sleep.sleep();
+            yield return new WaitForSeconds(1f);
+        }
+
+        [GameEvent(true, false)]
+        public IEnumerator Wake()
+        {
+            this.sleep.wake();
             yield return new WaitForSeconds(1f);
         }
 
@@ -174,6 +181,7 @@ namespace ImportantManager
         IGameEvent ev;
         public override void ReceiveEvent(IGameEvent ev)
         {
+            base.ReceiveEvent(ev);
             if (ev.Name == "important")
             {
                 string o1, o2, o3, o4;
